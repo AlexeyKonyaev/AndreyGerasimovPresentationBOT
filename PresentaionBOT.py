@@ -62,7 +62,7 @@ def reg_contact(message):
     global contact
     contact = message.text
     bot.send_message(message.from_user.id, 'Заявка успешно отправлена!')
-    bot.send_message(chat_id = 1233877371, text = "НОВАЯ ЗАЯВКА ОТ БОТА ПРЕЗЕНТАЦИЙ: " + "Тема презентации: " + tema + "; Источники информации: " + istoki + "; Объём работы: " + objom + "; Срок Выполнени: " + data + "; Клиент: "+ contact + ";")
+    bot.send_message(chat_id = -490711905, text = "НОВАЯ ЗАЯВКА ОТ БОТА ПРЕЗЕНТАЦИЙ: " + "Тема презентации: " + tema + "; Источники информации: " + istoki + "; Объём работы: " + objom + "; Срок Выполнени: " + data + "; Клиент: "+ contact + ";")
     
 
 
