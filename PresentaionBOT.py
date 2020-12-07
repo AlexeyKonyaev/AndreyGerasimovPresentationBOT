@@ -29,7 +29,7 @@ def main(message):
     elif msg == 'Обо Мне':
         send(id, 'Я Андрей делаю презентации на заказ')
     elif msg == 'Заказать Презентацию':
-        bot.send_message(message.from_user.id, 'Если вы хотите крутой монтаж, то напишите тему презентации')
+        bot.send_message(message.from_user.id, 'Если вы хотите получить крутую работу, то напишите тему презентации')
         bot.register_next_step_handler(message, reg_tema)
 
 def reg_tema(message):
